@@ -1,16 +1,20 @@
 .nosotros {
-  padding: 60px 20px;
-  background-color: aqua;
+  /* Le damos 120px de espacio arriba para que el título baje y se vea */
+  padding: 150px 40px 60px 40px; 
+  background-color: #0c3f66;   
   width: 100%;
+  box-sizing: border-box;
 }
 
 .divicion-general {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: auto;
+  max-width: 1200px;
+  margin: 0 auto;
   gap: 40px;
   width: 100%;
+  box-sizing: border-box; /* Esto es clave para que no se salga de la pantalla */
 }
 
 .divicion-texto {
@@ -19,21 +23,47 @@
 
 .divicion-imagen {
   width: 50%;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;     /* Centra verticalmente */
+}
+
+.divicion-imagen img {
+  max-width: 80%; /* Le damos un 80% máximo para que tenga margen de respiración */
+  height: auto;
+  object-fit: contain; /* Asegura que no se deforme */
+}
+
+/* CRUCIAL: Esta regla hace que tu imagen no se desborde y respete el 50% de la pantalla */
+.divicion-imagen img {
+  max-width: 100%;
+  height: auto;
+  /* Opcional: si la imagen de fondo tiene bordes raros, puedes ponerle opacidad o mix-blend-mode dependiendo del formato */
 }
 
 .divicion-texto h1 {
-  color: yellowgreen;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  font-family: sans-serif;
 }
 
 .divicion-texto p {
-  color: aquamarine;
-  line-height: 1.5;
+  color: rgb(255, 255, 255);
+  line-height: 1.6; /* Un poco más de espacio entre líneas para que sea más legible */
+  margin-bottom: 15px;
+  font-family: sans-serif;
+  text-align: justify; /* Opcional: esto alinea el texto cuadradito como se ve en tu captura */
+}
+
+/* La otra sección que tenías abajo */
+.divicion-nuestros-servicios {
+  padding: 60px 20px;
+  background-color: rgb(182, 39, 39);
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .seccion-nuestros-servicios {
-  padding: 60px 20px;
-  background-color: rgba(117, 209, 31, 0.74);
-  width: 100%;
+  text-align: center; 
 }
-
 
