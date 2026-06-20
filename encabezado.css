@@ -29,7 +29,13 @@
   color: rgb(0, 162, 255);
 }
 
-.menu-horizontal button  {
+.login {
+  color: rgb(0, 162, 255);
+  border-radius: 10px;
+  background-color: rgb(18, 72, 119);
+}
+
+.registro {
   color: rgb(0, 162, 255);
   border-radius: 10px;
   background-color: aliceblue;

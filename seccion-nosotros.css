@@ -1,0 +1,35 @@
+.nosotros {
+  padding: 60px 20px;
+  background: #2774ae;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #002E5D, #002E5D, #2774ae); 
+  background: linear-gradient(to right, #002E5D, #002E5D, #2774ae); 
+  width: 100%;
+}
+
+.divicion-general {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  gap: 40px;
+  width: 100%;
+}
+
+.divicion-texto {
+  width: 50%;
+}
+
+.divicion-imagen {
+  width: 50%;
+}
+
+.divicion-texto h2 {
+  color: yellowgreen;
+}
+
+.divicion-texto p {
+  color: aquamarine;
+  line-height: 1.5;
+}
+
+
