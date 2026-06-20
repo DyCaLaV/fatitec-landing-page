@@ -56,14 +56,74 @@
 }
 
 /* La otra sección que tenías abajo */
-.divicion-nuestros-servicios {
+.seccion-nuestros-servicios {
   padding: 60px 20px;
-  background-color: rgb(182, 39, 39);
+  background-color: rgb(39, 37, 37);
   width: 100%;
   box-sizing: border-box;
 }
 
 .seccion-nuestros-servicios {
   text-align: center; 
+}
+
+/* Estilos de la caja superior y grande */
+.caja-principal {
+    background-color: #0c3f66;
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 30px 40px;
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    margin-bottom: 40px; /* Espacio entre esta caja y las 3 de abajo */
+    box-sizing: border-box;
+}
+
+.caja-principal h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+.caja-principal p {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+/* Contenedor que agrupa las 3 tarjetas inferiores */
+.contenedor-tarjetas {
+    display: flex;
+    gap: 30px; /* Espacio entre cada tarjeta */
+    max-width: 1100px;
+    width: 100%;
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+    
+}
+
+/* Estilos para cada una de las 3 tarjetas inferiores */
+.tarjeta {
+    background-color: #0c3f66;
+    border-radius: 20px;
+    padding: 40px 30px;
+    flex: 1; /* Hace que las 3 tarjetas midan lo mismo de ancho */
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.tarjeta h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+.tarjeta p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
 }
 

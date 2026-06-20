@@ -1,6 +1,6 @@
 .barra-lateral {
   position: fixed;
-  background-color: rgb(88, 108, 114);
+  background-color: rgb(61, 58, 58);
   width: 100%;
   z-index: 100;
   height: 150px;
@@ -23,6 +23,7 @@
   text-decoration: none;
   padding: 15px 20px;
   color: #000000;
+  font-family: sans-serif;
 }
 
 .menu-horizontal li a:hover {
@@ -33,6 +34,7 @@
   color: rgb(0, 162, 255);
   border-radius: 10px;
   background-color: rgb(18, 72, 119);
+  
 }
 
 .registro {
