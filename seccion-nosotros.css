@@ -1,8 +1,6 @@
 .nosotros {
   padding: 60px 20px;
-  background: #2774ae;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #002E5D, #002E5D, #2774ae); 
-  background: linear-gradient(to right, #002E5D, #002E5D, #2774ae); 
+  background-color: aqua;
   width: 100%;
 }
 
@@ -23,13 +21,19 @@
   width: 50%;
 }
 
-.divicion-texto h2 {
+.divicion-texto h1 {
   color: yellowgreen;
 }
 
 .divicion-texto p {
   color: aquamarine;
   line-height: 1.5;
+}
+
+.seccion-nuestros-servicios {
+  padding: 60px 20px;
+  background-color: rgba(117, 209, 31, 0.74);
+  width: 100%;
 }
 
 
