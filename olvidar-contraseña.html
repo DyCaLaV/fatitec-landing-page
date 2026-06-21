@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recuperar Contraseña</title>
+  <link rel="stylesheet" href="olvidar-contraseña.css">
+</head>
+<body>
+
+  <div class="form-container">
+    <p class="title">Recupera la contraseña</p>
+    
+    <p style="text-align: center; color: #747474; font-size: 12px; font-family: 'Lucida Sans', sans-serif; margin-top: -15px; margin-bottom: 25px;">
+      Ingresa el Email donde se le enviara el link para 
+      cambiar la contraseña.
+    </p>
+
+    <form class="form">
+      <input type="email" class="input" placeholder="Email">
+      <button type="button" class="form-btn" onclick="alert('Se ha enviado un enlace de recuperación a tu correo.'); window.location.href='index.html'">Enviar link</button>
+    </form>
+    
+    <p class="sign-up-label" style="margin-top: 20px; text-align: center;">
+      Recuardas la contraseña? <a href="login.html" class="sign-up-link">Inicia secion</a>
+    </p>
+  </div>
+
+</body>
+</html>

@@ -37,6 +37,14 @@
   
 }
 
+.login a {
+  text-decoration: none;
+}
+
+.registro a {
+  text-decoration: none;
+}
+
 .registro {
   color: rgb(0, 162, 255);
   border-radius: 10px;
