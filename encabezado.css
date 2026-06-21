@@ -73,6 +73,14 @@
   background-color: #5ce1e6; /* Color azul claro del mockup */
 }
 
+.login a {
+  text-decoration: none;
+}
+
+.registro a {
+  text-decoration: none;
+}
+
 .registro {
   color: #111;
   background-color: #ffffff;
