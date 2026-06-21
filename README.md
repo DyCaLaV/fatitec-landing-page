@@ -8,7 +8,7 @@ FatiTec es una solución innovadora diseñada para mitigar la fatiga visual medi
 * CSS
 
 ## Instrucciones de Despliegue
-1. Clonar el repositorio localmente usando: `git clone https://github.com/TU_USUARIO/fatitec-landing-page.git`
+1. Clonar el repositorio localmente usando: `git clone https://github.com/DyCaLaV/fatitec-landing-page.git`
 2. Abrir la carpeta del proyecto en Visual Studio Code.
 3. Ejecutar el archivo `index.html` en el navegador de su preferencia.
 
