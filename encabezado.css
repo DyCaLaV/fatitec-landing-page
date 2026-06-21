@@ -57,6 +57,9 @@
 .menu-horizontal li a:hover {
   color: #38b6ff;
 }
+.menu-horizontal a {
+  color: #111;
+}
 
 .login, .registro {
   border: none;
