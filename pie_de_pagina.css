@@ -1,0 +1,164 @@
+/* --- SECCIÓN SERVICIOS --- */
+.seccion-nuestros-servicios {
+  padding: 80px 20px;
+  background: linear-gradient(180deg, #3d3b3b 10%, #2b2b2b 81%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.caja-principal {
+  background: linear-gradient(90deg, #0f4c81 0%, #1d70b8 100%); 
+  padding: 25px 40px;
+  text-align: center;
+  max-width: 750px;
+  width: 100%;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+}
+
+.caja-principal h2, .caja-principal p {
+  color: white;
+  font-family: sans-serif;
+  margin: 5px 0;
+}
+
+.contenedor-tarjetas {
+  display: flex;
+  gap: 30px;
+  max-width: 1200px;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tarjeta {
+  background: linear-gradient(135deg, #0b3c5d 23%, #177ec3 100%);
+  border-radius: 20px;
+  padding: 35px 25px;
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.icono-tarjeta {
+  width: 50px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.tarjeta h3 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.tarjeta p {
+  color: #b0c4de;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* --- SECCIÓN ESTADÍSTICAS --- */
+.seccion-estadisticas {
+  background: linear-gradient(180deg, #1b4965 0%, #62b6cb 100%); 
+  padding: 80px 50px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contenedor-estadisticas {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.bloque-stat {
+  text-align: center;
+  flex: 1;
+  min-width: 220px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.bloque-stat h2 {
+  font-size: 55px;
+  margin: 0 0 10px 0;
+  font-weight: bold;
+}
+
+.bloque-stat p {
+  font-size: 15px;
+  line-height: 1.4;
+  color: #e0f2f1;
+}
+
+/* --- PIE DE PÁGINA (FOOTER) --- */
+.footer {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 40px 50px;
+  font-family: sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer-logo {
+  width: 40px;
+}
+
+.footer-links a {
+  color: #aaa;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  color: #5ce1e6;
+}
+
+.footer-info-contacto {
+  display: flex;
+  gap: 20px;
+  color: #ccc;
+  font-size: 13px;
+}
+
+/* Redes sociales con íconos */
+.footer-social {
+  flex: 1;
+  min-width: 200px;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 0.5rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}

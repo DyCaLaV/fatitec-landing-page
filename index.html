@@ -1,26 +1,162 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HTML + CSS</title>
-    <H1>
-      
-    </H1>
+    <title>FatiTec</title>
+    <link rel="stylesheet" href="encabezado.css">
+    <link rel="stylesheet" href="seccion-nosotros.css">
+    <link rel="stylesheet" href="pie_de_pagina.css">
   </head>
+
   <body>
-    asdsad
-    JAMES DEJA LA JAPPA  POR FAVOR TE HACE DAÑO YA DEJA DE HACER ESO 
-    <title>HTML+ JV </title>
-  </body>
-    </H1>
-    diasfdisudfsdiuofgduighiuhefiugafyusfgiusefhusofhiurdsf
-    fdsgedrherwryreytetwetreyhre
-    ewteytrturtgjwheifuhwieufhwiuefgiuerhgoiuerjpir
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <h1>This is a simple HTML + CSS template!</h1>
+    <!--barra lateral-->
+    <nav class="barra-lateral">
+      <div class="nav-izq">
+        <a href="#" class="logo">
+          <img src="imagenes/seccion-nosotros.png" alt="logo FatiTec" class="logo-ojo"> 
+        </a>
+        <div class="buscador-nav">
+          <input type="text" placeholder="🔍 Buscar funciones, consejos o reportes...">
+        </div>
+      </div>
+      <ul class="menu-horizontal">
+        <li><a href="#">¿Como funciona?</a></li>
+        <li><a href="#">Testimonios</a></li>
+        <li><a href="#">nosotros</a></li>
+        <li><a href="#">Contacto</a></li>
+        <button class="login">Log in</button>
+        <button class="registro">Registrarse</button>
+      </ul>
+    </nav>
+
+    <!--seccion 1 hero -->
+    <header class="hero-section">
+      <div class="hero-container">
+        <div class="hero-texto">
+          <h1>Protege tu salud visual mientras estudias o trabajas</h1>
+          <p>FatiTec utiliza inteligencia artificial y monitoreo biométrico ocular para detectar signos tempranos de fatiga visual y ayudarte a mantener tu productividad y bienestar digital.</p>
+          <a href="#" class="btn-hero">Comienza ahora</a>
+        </div>
+        <div class="hero-imagen">
+          <img src="imagenes/seccion-nosotros.png" alt="Ojo FatiTec" class="ojo-grande">
+        </div>
+      </div>
+    </header>
+
+    <!--secion 2: nosotros-->
+    <section class="nosotros">
+      <div class="division-general">
+        <div class="division-texto">
+          <h1>¿Quienes somos?</h1>
+          <p>Somos una empresa nueva que busca solucionar uno de los problemas
+             más comunes entre todas las personas, la fatiga visual, es por eso
+             que nosotros planteamos una solución tecnológica mediante una APP y WEB
+             llamados "FatiTec".
+          </p>
+        </div>
+        <div class="division-imagen">
+          <img src="imagenes/medicos.png" alt="imagen-2">
+        </div>
+      </div>
+    </section>  
+    
+    <!--seccion 3:nuestor servicios-->
+    <section class="seccion-nuestros-servicios">
+      <div class="caja-principal">
+          <h2>Nuestros Servicios</h2>
+          <p>Herramientas inteligentes diseñadas para mejorar tu bienestar digital y reducir la fatiga visual</p>
+      </div>
+      <div class="contenedor-tarjetas">
+          <div class="tarjeta">
+              <img src="imagenes/8137687.png" class="icono-tarjeta" alt="Monitoreo">
+              <h3>Monitoreo Biométrico Ocular</h3>
+              <p>Analizamos tu ritmo de parpadeo mediante visión artificial para detectar signos tempranos de fatiga visual en tiempo real</p>
+          </div>
+          <div class="tarjeta">
+              <img src="imagenes/3602143.png" class="icono-tarjeta" alt="Alertas">
+              <h3>Alertas Inteligentes</h3>
+              <p>Recibe recordatorios automáticos de pausas activas y descansos visuales personalizados según tu nivel de cansancio.</p>
+          </div>
+          <div class="tarjeta">
+              <img src="imagenes/pantalla.png" class="icono-tarjeta" alt="Pantalla">
+              <h3>Ajuste Automático de Pantalla</h3>
+              <p>FatiTec adapta automáticamente el brillo, contraste y modo oscuro para proteger tu vista durante largas jornadas</p>
+          </div>
+      </div>
+    </section>
+
+
+    <!--secion 4: estadisticas o algo asi xdxd nose -->
+    <section class="seccion-estadisticas">
+      <div class="contenedor-estadisticas">
+        <div class="bloque-stat">
+          <h2>70%</h2>
+          <p>de estudiantes universitarios presentan Síndrome de Fatiga Ocular</p>
+        </div>
+        <div class="bloque-stat">
+          <h2>86%</h2>
+          <p>experimenta síntomas de cansancio ocular y fatiga visual</p>
+        </div>
+        <div class="bloque-stat">
+          <h2>72%</h2>
+          <p>utiliza dispositivos electrónicos por más de 4 horas continuas</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN REPORTE EN IMAGEN -->
+    <section class="seccion-reporte-imagen">
+      <div class="contenedor-imagen-reporte">
+        <img src="imagenes/Mockup llanding page.png" alt="Reporte Inteligente de Bienestar Digital - FatiTec">
+      </div>
+    </section>
+
+<!-- PIE DE PAGINA -->
+    <footer id="footer" class="footer">
+      <div class="footer-container">
+
+<!-- PARTE SUPERIOR: Logo y Links -->
+    <div class="footer-top">
+        <div class="footer-brand">
+            <img src="imagenes/seccion-nosotros.png" alt="Logo FatiTec" class="footer-logo" />
+            <p>FatiTec</p>
+            <small>© 2026 Todos los derechos reservados</small>
+        </div>
+
+        <div class="footer-links">
+            <h4>Legal</h4>
+            <div class="links-row">
+              <a href="#">Política de Privacidad</a>
+              <a href="#">Términos y Condiciones</a>
+              <a href="#">Protección de Datos</a>
+            </div>
+        </div>
+    </div>
+
+<!-- REGLA DE SEPARACIÓN  -->
+    <hr class="footer-divider">
+    <div class="footer-bottom">
+        <div class="footer-info-contacto">
+            <span class="contacto-item">✉ fatitec@gmail.com</span>
+            <span class="contacto-item">📞 (01) 640-4587</span>
+            <span class="contacto-item">📍 Lima, Perú</span>
+        </div>
+
+        <div class="footer-social">
+            <h4>Síguenos</h4>
+            <div class="social-icons-container">
+              <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="Facebook" class="social-icon" /></a>
+              <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145812.png" alt="Instagram" class="social-icon" /></a>
+              <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" class="social-icon" /></a>
+              <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145806.png" alt="Twitter" class="social-icon" /></a>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    </footer>
+
   </body>
 </html>
