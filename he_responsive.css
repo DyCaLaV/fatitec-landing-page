@@ -1,0 +1,143 @@
+/* Responsive para pantallas pequeñas: pie de pagina */
+
+@media (max-width: 768px) {
+
+ .footer-container {
+
+  flex-direction: column;
+
+  align-items: center;
+
+  text-align: center;
+
+ }
+
+
+
+ .footer-social img {
+
+  margin-bottom: 0.5rem;
+
+ }
+
+}
+
+
+
+
+
+/* Responsive para pantallas pequeñas: Menu Hamburguesa */
+
+@media (max-width: 768px) {
+
+ .menu-toggle {
+
+  display: block; /* Mostrar botón hamburguesa en móviles */
+
+ }
+
+
+
+ .menu-horizontal {
+
+  display: none; /* Ocultar menú horizontal por defecto */
+
+  flex-direction: column; /* Mostrarlo en vertical al activarse */
+
+  width: 100%;
+
+  background-color: rgb(29, 28, 28);
+
+  position: absolute;
+
+  top: 80px; /* Debajo del menú fijo */
+
+  left: 0;
+
+ }
+
+
+
+ .menu-horizontal.active {
+
+  display: flex; /* Mostrar menú al activar la clase */
+  
+
+ }
+
+
+
+ .menu-horizontal li {
+
+  border-bottom: 1px solid #ccc; /* Líneas separadoras */
+
+ }
+
+ .menu-horizontal li a {
+
+  border-bottom: 1px solid #ccc; /* Líneas separadoras */
+  text-decoration: none !important;
+
+ }
+
+
+
+ .historia-contenido {
+
+  flex-direction: column; /* Apilar imagen y texto en móvil */
+
+  text-align: center;
+
+ }
+
+
+
+ .historia-imagen img {
+
+  width: 90%; /* Reduce tamaño para pantallas pequeñas */
+
+  margin: 0 auto;
+
+ }
+
+
+
+ .historia-texto {
+
+  font-size: 1.1rem;
+
+ }
+
+}
+
+
+
+/* Responsive para pantallas pequeñas: Formulario */
+
+@media (max-width: 768px) {
+
+ .contacto-contenido {
+
+  flex-direction: column;
+
+ }
+
+
+
+ .formulario-contacto,
+
+ .contacto-instrucciones {
+
+  width: 100%;
+
+ }
+
+
+
+ .mensaje-enviado {
+
+  text-align: center;
+
+ }
+
+}
