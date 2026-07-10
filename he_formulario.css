@@ -1,0 +1,123 @@
+.seccion-formulario {
+  background-color: #202020; 
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.div-cont-formulario {
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border: none;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+
+.div-cont-formulario h2 {
+  font-family: "Inter", sans-serif; 
+  font-size: 26px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.div-cont-formulario p {
+  font-family: "Inter", sans-serif;
+  color: #555555;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 25px;
+  line-height: 1.4;
+}
+
+.campo {
+  background-color: #ffffff;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.formulario label {
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #000000;
+  font-size: 15px;
+}
+
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario select {
+  width: 100%;
+  padding: 12px;
+  border: 1.5px solid #cccccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.formulario input[type="text"]:focus,
+.formulario input[type="email"]:focus,
+.formulario select:focus {
+  border-color: #1EB4A8; 
+}
+
+.lista-checkbox {
+  list-style: none;
+  padding: 15px;
+  margin: 0;
+  border: 1.5px solid #cccccc;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.lista-checkbox li {
+  margin-bottom: 10px;
+}
+.lista-checkbox li:last-child {
+  margin-bottom: 0;
+}
+
+.lista-checkbox label {
+  font-weight: normal;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.lista-checkbox input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: #1EB4A8; 
+}
+
+.formulario button {
+  background-color: #1EB4A8; 
+  color: #ffffff;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  width: 100%;
+  padding: 14px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.formulario button:hover {
+  background-color: #15938f; 
+}

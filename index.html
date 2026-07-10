@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="pie_de_pagina.css">
     <link rel="stylesheet" href="he_responsive.css">
     <link rel="stylesheet" href="he_menu_hamburguesa.css">
+    <link rel="stylesheet" href="he_formulario.css">
   </head>
 
   <body>
@@ -121,6 +122,87 @@
         <img src="imagenes/Mockup llanding page.png" alt="Reporte Inteligente de Bienestar Digital - FatiTec">
       </div>
     </section>
+
+<section class="seccion-formulario">
+      <div class="div-cont-formulario">
+        <h2>¡QUEREMOS CONOCERTE!</h2>
+        <p>
+          Déjanos tus datos para ponernos en contacto contigo, resolver tus dudas o mostrarte cómo FatiTec protegerá tu salud visual.
+        </p>
+
+        <form class="formulario">
+          <div class="campo">
+            <label for="nombres">Nombres Completos:</label>
+            <input
+              type="text"
+              id="nombres"
+              name="nombres"
+              placeholder="Ej. Juan Pérez"
+              required
+            />
+          </div>
+
+          <div class="campo">
+            <label for="telefono">Teléfono / WhatsApp:</label>
+            <input
+              type="text"
+              id="telefono"
+              name="telefono"
+              placeholder="Ej. 987654321"
+              required
+            />
+          </div>
+
+          <div class="campo">
+            <label for="correo">Correo Electrónico:</label>
+            <input
+              type="email"
+              id="correo"
+              name="correo"
+              placeholder="Ej. juan@correo.com"
+              required
+            />
+          </div>
+
+          <div class="campo">
+            <label for="ocupacion">¿Cuál es tu perfil?</label>
+            <select id="ocupacion" name="ocupacion" required>
+              <option value="">Selecciona una opción:</option>
+              <option value="estudiante">Estudiante Universitario</option>
+              <option value="trabajador">Trabajador Remoto / Freelancer</option>
+              <option value="empresa">Representante de Empresa / RRHH</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label>¿Qué soluciones te interesa conocer?</label>
+            <ul class="lista-checkbox">
+              <li>
+                <label
+                  ><input type="checkbox" name="interes" value="monitoreo" />
+                  Monitoreo Biométrico Ocular</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" name="interes" value="alertas" />
+                  Alertas Inteligentes de Pausa</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" name="interes" value="ajuste" />
+                  Ajuste Automático de Pantalla</label
+                >
+              </li>
+            </ul>
+          </div>
+
+          <button type="submit">Enviar Mensaje</button>
+        </form>
+      </div>
+    </section>
+
 
 <!-- PIE DE PAGINA -->
     <footer id="footer" class="footer">
